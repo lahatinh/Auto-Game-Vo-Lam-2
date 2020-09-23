@@ -1,0 +1,42 @@
+int __stdcall InjectDll(HWND hWnd);
+int __stdcall UnmapDll(HWND hWnd);
+UINT __stdcall GetMsg();
+enum SENDCMD {
+	cmd_setParam1,
+	cmd_setParam2,
+	cmd_setParam3,
+	cmd_setParam4,
+	cmd_setParam5,
+	cmd_setParam6,
+	cmd_setParam7,
+	cmd_Move, ///Move(X,Y,idMap)
+	cmd_LoginS1,
+	cmd_LoginS3,
+	cmd_LoginS4,
+	cmd_SelectMenu,
+	cmd_Shopping,
+	cmd_Action,
+	cmd_closeInv,
+	cmd_closeChat,
+	cmd_Craft,
+	cmd_SkipChat,
+	cmd_PickNPut,
+	cmd_UseHorse,
+	cmd_SwitchRun,
+	cmd_ChooseNewChar,
+	cmd_ChooseLoginChar,
+	cmd_LevelUp,
+	cmd_CreateGroup,
+	cmd_nhanCode,
+	cmd_useItem,
+	cmd_incStat,
+	cmd_chooseServer,
+	cmd_throwItem,
+	cmd_setItemPrice,
+	cmd_sale,
+	cmd_SplitItem,
+	cmd_MyShop,
+	cmd_Respawn,
+	cmd_POpenShop,
+	cmd_PShopping
+};
